@@ -1,0 +1,36 @@
+hash: 81ef410b2e5c957004bbe8d2a1d054d26de48d8c383eaf93c3489f33a572bd24
+updated: 2017-01-30T16:00:22.123584019-08:00
+imports:
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+  - ptypes/timestamp
+- name: github.com/solher/styx
+  version: f35cf02b4e13c8e147e3de7d368a793bf3787abc
+  subpackages:
+  - pb
+- name: golang.org/x/net
+  version: f2499483f923065a842d38eb4c7f1927e6fc6e6d
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: 708a7f9f3283aa2d4f6132d287d78683babe55c8
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - stats
+  - tap
+  - transport
+testImports: []

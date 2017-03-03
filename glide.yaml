@@ -1,0 +1,6 @@
+package: github.com/wid-la/styx-client-go
+import:
+- package: github.com/solher/styx
+  subpackages:
+  - pb
+- package: google.golang.org/grpc
